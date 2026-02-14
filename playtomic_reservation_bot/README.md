@@ -6,6 +6,7 @@ Aplicación de escritorio para automatizar reservas de canchas en Playtomic con 
 
 ```bash
 cd playtomic_reservation_bot
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
